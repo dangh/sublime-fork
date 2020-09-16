@@ -1,0 +1,4 @@
+[
+  { "caption": "Fork: Open Repository…", "command": "fork_open_repo" },
+  { "caption": "Fork: File History…", "command": "fork_view_file_history" },
+]

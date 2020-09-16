@@ -1,0 +1,6 @@
+[
+  { "caption": "-", "id": "fork_commands" },
+  { "caption": "Open Repository…", "command": "fork_open_repo", "args": {"paths": []}},
+  { "caption": "File History…", "command": "fork_view_history", "args": {"files": []}},
+  { "caption": "Folder History…", "command": "fork_view_history", "args": {"dirs": []}},
+]
