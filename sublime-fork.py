@@ -9,7 +9,7 @@ def find_vcs_root(test, dirs=(".git",), default=None):
 
     prev, test = None, os.path.abspath(test)
     while prev != test:
-        if any(os.path.isdir(os.path.join(test, d)) for d in dirs):
+        if any(os.path.exists(os.path.join(test, d)) for d in dirs):
             return test
         prev, test = test, os.path.abspath(os.path.join(test, os.pardir))
     return default
